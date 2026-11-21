@@ -26,6 +26,7 @@ Because the prebuilt macOS desktop bundle (Project-CURE-desktop-1.34GB.zip) is t
 
 brew install git-lfs
 git lfs install
+
 2. Clone the Repository
 
 git clone https://github.com/isaacrishi/PROJECT-C.U.R.E.git
