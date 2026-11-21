@@ -1,0 +1,6 @@
+{
+  "name": "PROJECT CURE",
+  "description": "Continuous Understanding and Research Engine — an AI-assisted biomedical cancer research intelligence workstation for literature discovery, molecular analytics, pathology annotation, hypothesis evaluation, and experimental planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

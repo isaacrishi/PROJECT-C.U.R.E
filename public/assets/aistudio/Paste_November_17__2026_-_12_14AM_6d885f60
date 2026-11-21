@@ -1,0 +1,914 @@
+PROJECT CURE
+CONTINUOUS UNDERSTANDING AND RESEARCH ENGINE
+Master Application Generation Specification — Version 1.0
+1. YOUR ROLE
+Act as a principal AI systems architect, senior full-stack engineer, computational biologist, biomedical research software engineer, data scientist, and scientific UI/UX designer.
+
+Your task is to DESIGN AND BUILD a complete, functional, production-oriented AI-assisted cancer research platform called:
+
+PROJECT CURE — Continuous Understanding and Research Engine.
+
+Do not create a generic chatbot, static dashboard, landing-page mockup, or conceptual prototype.
+
+Build a functional research application with interconnected modules, persistent data, real workflows, scientific data processing, AI-assisted reasoning, and a sophisticated research interface.
+
+Prioritise working functionality over decorative features.
+
+If an external integration is unavailable, implement a functional integration interface with an honest connection status. Never fabricate successful API responses, research findings, scientific citations, or experimental results.
+
+2. CORE MISSION
+CURE is an AI-assisted scientific research environment designed to support cancer research through:
+
+Scientific literature investigation.
+Cancer biology and tumour microenvironment research.
+Molecular and genomic data exploration.
+Histopathology image research.
+Multi-source scientific data integration.
+Statistical analysis.
+Research hypothesis generation.
+Experimental research planning.
+Evidence evaluation.
+Reproducible research documentation.
+Continuous evaluation and improvement of research workflows.
+CURE must operate as a research intelligence system rather than a medical advice chatbot.
+
+Its purpose is to assist qualified researchers in investigating complex biological questions, discovering potentially meaningful relationships, and developing hypotheses that can be independently tested.
+
+The system must distinguish:
+
+Established scientific knowledge.
+Peer-reviewed findings.
+Preliminary research.
+Observational associations.
+Computational predictions.
+AI-generated hypotheses.
+Experimentally validated discoveries.
+Never represent correlation as causation or an AI-generated hypothesis as an established scientific finding.
+
+3. APPLICATION IDENTITY AND VISUAL DIRECTION
+Application name: PROJECT CURE
+
+Full name: Continuous Understanding and Research Engine.
+
+Visual identity:
+
+Advanced biomedical research intelligence.
+Scientific workstation aesthetic.
+Dark graphite interface.
+Deep navy backgrounds.
+Restrained cyan and teal highlights.
+White and muted-grey typography.
+Subtle molecular network visualisations.
+High-resolution scientific charts.
+Clean scientific data tables.
+Sophisticated interactive dashboards.
+The application should look like a combination of:
+
+An advanced biomedical research laboratory.
+A computational biology workstation.
+A scientific intelligence platform.
+A professional AI research environment.
+Avoid:
+
+Generic healthcare landing-page designs.
+Cartoon medical illustrations.
+Excessive gradients.
+Oversized rounded cards.
+Excessive animations.
+Decorative elements that interfere with scientific information.
+Use responsive layouts for desktop, tablet, and mobile.
+
+Desktop should be the primary experience.
+
+4. MAIN APPLICATION STRUCTURE
+Create a persistent left navigation sidebar.
+
+Navigation modules:
+
+COMMAND CENTRE
+AI RESEARCH ENGINE
+LITERATURE INTELLIGENCE
+CANCER BIOLOGY
+MOLECULAR INTELLIGENCE
+PATHOLOGY INTELLIGENCE
+TUMOUR MICROENVIRONMENT
+HYPOTHESIS LAB
+EXPERIMENT DESIGN
+DATA ANALYTICS
+RESEARCH LIBRARY
+RESEARCH PROJECTS
+RESEARCH COLLABORATION
+SYSTEM INTELLIGENCE
+SETTINGS
+Each module must have its own functional workspace.
+
+Do not make all navigation items lead to the same chatbot.
+
+5. COMMAND CENTRE
+Create the primary research dashboard.
+
+Display:
+
+A. RESEARCH OVERVIEW
+
+Total research projects.
+Active investigations.
+Literature sources indexed.
+Research datasets imported.
+Hypotheses generated.
+Hypotheses under evaluation.
+Experiments documented.
+Validated research findings.
+B. RESEARCH ACTIVITY
+Show:
+
+Recent investigations.
+Latest literature discoveries.
+Newly imported datasets.
+Hypothesis evaluation updates.
+Research milestones.
+C. RESEARCH INTELLIGENCE
+Provide an overview of:
+
+Active research topics.
+Emerging scientific themes.
+Important molecular pathways.
+Frequently investigated cancer types.
+Research knowledge gaps.
+D. SYSTEM STATUS
+Display:
+
+Gemini API connection.
+Literature API connections.
+Database status.
+File storage status.
+AI processing status.
+Background research jobs.
+All metrics must derive from actual application data.
+
+When the database is empty, show zero values and an onboarding workflow rather than invented statistics.
+
+6. AI RESEARCH ENGINE
+This is the central intelligence interface.
+
+Build an interactive scientific research assistant powered by Google’s Gemini API.
+
+The research assistant must support:
+
+Scientific question answering.
+Literature-based investigations.
+Multi-step research analysis.
+Biological mechanism exploration.
+Molecular pathway investigation.
+Research comparison.
+Evidence synthesis.
+Hypothesis generation.
+Research gap identification.
+Experimental planning.
+Scientific report generation.
+The interface should support conversations organised by research project.
+
+Every investigation should have:
+
+Research question.
+Research objectives.
+Selected cancer type.
+Relevant biological mechanisms.
+Research sources.
+Analysis history.
+Generated findings.
+Supporting evidence.
+Unresolved questions.
+REASONING WORKFLOW:
+
+For every substantial research request, follow this structured process:
+
+STEP 1 — Understand the research question.
+
+STEP 2 — Identify the biological domain and relevant scientific concepts.
+
+STEP 3 — Determine what evidence is needed.
+
+STEP 4 — Retrieve relevant literature and available datasets.
+
+STEP 5 — Evaluate source quality and limitations.
+
+STEP 6 — Analyse biological relationships.
+
+STEP 7 — Identify conflicting evidence and uncertainties.
+
+STEP 8 — Generate possible explanations or hypotheses.
+
+STEP 9 — Assign confidence based on evidence quality.
+
+STEP 10 — Present findings with traceable references.
+
+Do not claim that internal reasoning is independently scientifically validated.
+
+Provide concise explanations of methods, assumptions, evidence, and conclusions rather than exposing private internal reasoning.
+
+The user must be able to request deeper investigation at any stage.
+
+7. LITERATURE INTELLIGENCE
+Build a scientific literature discovery and analysis engine.
+
+Integrate public scientific resources where accessible:
+
+PubMed.
+Europe PMC.
+Crossref.
+Open-access scientific publications.
+ClinicalTrials.gov for public trial records.
+Features:
+
+Search scientific literature.
+Filter by publication date.
+Filter by cancer type.
+Filter by research methodology.
+Filter by molecular pathway.
+Filter by publication type.
+Open source publications.
+Extract abstracts and available full-text content.
+Summarise scientific findings.
+Compare conflicting research findings.
+Identify recurring findings.
+Identify research limitations.
+Save publications to the research library.
+Every literature result should display:
+
+Publication title.
+Authors.
+Journal.
+Publication date.
+DOI or PMID where available.
+Source URL.
+Abstract.
+Research methodology.
+Main findings.
+Limitations.
+Relevance to the active investigation.
+Implement real literature retrieval wherever possible.
+
+Never fabricate publication titles, authors, DOI numbers, or references.
+
+When full text is unavailable, explicitly state that the analysis is based on the abstract or available metadata.
+
+8. CANCER BIOLOGY INTELLIGENCE
+Build a biological research module covering:
+
+Tumour initiation.
+Tumour progression.
+Cell proliferation.
+Apoptosis.
+Angiogenesis.
+Metastasis.
+DNA damage.
+DNA repair.
+Epigenetic regulation.
+Immune evasion.
+Cellular senescence.
+Tumour heterogeneity.
+Cancer stem cells.
+Treatment resistance.
+Provide interactive biological pathway exploration.
+
+For each biological mechanism, display:
+
+Biological function.
+Relevant cellular processes.
+Associated genes and proteins.
+Known molecular pathways.
+Supporting publications.
+Established findings.
+Unresolved research questions.
+Allow researchers to connect related biological mechanisms into an interactive knowledge graph.
+
+9. MOLECULAR INTELLIGENCE
+Create a molecular and genomic research environment.
+
+Support exploration of:
+
+DNA mutations.
+Gene expression.
+RNA expression.
+Protein expression.
+Epigenetic modifications.
+Gene regulation.
+Molecular signalling.
+Protein interactions.
+Pathway alterations.
+Tumour genomic heterogeneity.
+Support importing compatible research datasets in CSV, TSV, and JSON formats.
+
+Where appropriate, provide interfaces for standard genomics formats such as VCF and expression matrices.
+
+Implement:
+
+Data validation.
+Missing-value detection.
+Sample identification.
+Metadata association.
+Basic descriptive statistics.
+Gene expression visualisation.
+Correlation analysis.
+Differential expression workflow interfaces.
+Pathway enrichment workflow interfaces.
+Use established statistical methods and appropriate external computational libraries where available.
+
+Display methodology, assumptions, sample sizes, and limitations.
+
+Do not infer biological significance from statistical significance alone.
+
+Never generate fabricated molecular measurements.
+
+10. PATHOLOGY INTELLIGENCE
+Create a dedicated pathology research workspace.
+
+Allow researchers to upload histopathology images for exploratory computational analysis.
+
+Support:
+
+PNG.
+JPEG.
+TIFF where supported.
+Provide:
+
+High-resolution image viewer.
+Zoom and pan.
+Image metadata.
+Region annotation.
+Tissue-region selection.
+Image comparison.
+Research notes.
+Image organisation by project.
+Where a suitable validated image-analysis model is available, provide an integration interface for:
+
+Tissue segmentation.
+Cell detection.
+Cell density estimation.
+Tissue classification.
+Morphological feature extraction.
+Clearly distinguish actual model-generated measurements from manually entered annotations and illustrative visualisations.
+
+Do not claim diagnostic accuracy without appropriate independent validation.
+
+Do not diagnose cancer, determine malignancy, or recommend treatment from uploaded images.
+
+If no validated pathology model is connected, provide the image management and annotation tools without pretending that AI analysis has occurred.
+
+11. TUMOUR MICROENVIRONMENT
+Build an interactive tumour microenvironment research module.
+
+Represent relevant biological components:
+
+Cancer cells.
+Fibroblasts.
+Immune cells.
+Endothelial cells.
+Extracellular matrix.
+Blood vessels.
+Cytokines.
+Growth factors.
+Cellular signalling interactions.
+Create interactive scientific diagrams showing:
+
+Cellular relationships.
+Molecular signalling.
+Immune interactions.
+Tumour-stromal interactions.
+Angiogenesis.
+Hypoxia.
+Inflammatory signalling.
+Provide a 2D interactive research model initially.
+
+Keep 3D biological modelling as an extensible module.
+
+Clearly label conceptual diagrams separately from experimentally derived spatial measurements.
+
+12. HYPOTHESIS LAB
+This is one of CURE’s most important modules.
+
+Build a structured hypothesis generation and evaluation environment.
+
+Researchers should be able to create hypotheses from:
+
+Literature findings.
+Molecular datasets.
+Pathology observations.
+Biological mechanisms.
+Research gaps.
+Cross-study comparisons.
+Every hypothesis must include:
+
+Hypothesis title.
+Research question.
+Biological rationale.
+Supporting evidence.
+Contradictory evidence.
+Proposed mechanism.
+Relevant genes or proteins.
+Supporting publications.
+Assumptions.
+Limitations.
+Confidence assessment.
+Suggested validation approach.
+Current status.
+Hypothesis status options:
+
+Generated.
+Under review.
+Evidence gathering.
+Computationally evaluated.
+Experimentally proposed.
+Experimentally tested.
+Supported.
+Refuted.
+Inconclusive.
+IMPORTANT:
+
+A hypothesis must never automatically become a scientific discovery.
+
+Computational support does not equal experimental validation.
+
+Provide a hypothesis comparison interface allowing multiple hypotheses to be evaluated side by side.
+
+13. EXPERIMENT DESIGN
+Build a research experiment planning workspace.
+
+Allow researchers to document:
+
+Research objectives.
+Scientific questions.
+Experimental hypotheses.
+Study design.
+Independent variables.
+Dependent variables.
+Control groups.
+Sample characteristics.
+Sample-size assumptions.
+Statistical methods.
+Expected outcomes.
+Potential confounders.
+Limitations.
+Validation requirements.
+Include:
+
+Experimental protocol documentation.
+Statistical analysis planning.
+Research reproducibility checklist.
+Research ethics checklist.
+Version history.
+Do not autonomously initiate experiments or provide unreviewed instructions for clinical intervention.
+
+All experimental plans must remain proposals requiring qualified human review and institutional approvals where applicable.
+
+14. DATA ANALYTICS
+Build a scientific analytics environment.
+
+Support:
+
+Descriptive statistics.
+Correlation matrices.
+Distribution analysis.
+Gene expression comparisons.
+Survival-analysis workflow interfaces.
+Kaplan-Meier visualisation where appropriate data are supplied.
+Statistical significance reporting.
+Confidence intervals.
+Dataset quality assessment.
+Comparative research visualisations.
+Charts should include:
+
+Clear axis labels.
+Units.
+Sample sizes.
+Data source.
+Statistical methodology.
+Confidence intervals where applicable.
+Never create a chart using fabricated patient data and present it as real research.
+
+Synthetic demonstration datasets must be prominently labelled SYNTHETIC DATA.
+
+15. RESEARCH LIBRARY
+Create a persistent research knowledge repository.
+
+Allow users to store:
+
+Scientific publications.
+Research notes.
+Uploaded datasets.
+Pathology images.
+Hypotheses.
+Experimental plans.
+Research reports.
+Biological pathway references.
+Implement:
+
+Search.
+Tags.
+Categories.
+Folders.
+Project association.
+Version history.
+Source tracking.
+Export.
+Every saved research item should preserve its original source and metadata.
+
+16. RESEARCH PROJECT MANAGEMENT
+Allow users to create separate research projects.
+
+Each project must have:
+
+Project name.
+Research description.
+Cancer research area.
+Primary research objective.
+Research questions.
+Linked publications.
+Linked datasets.
+Linked hypotheses.
+Experimental plans.
+Research notes.
+Project timeline.
+Activity history.
+Provide the ability to resume an investigation without losing previous research context.
+
+17. RESEARCH COLLABORATION
+Design an extensible collaboration module.
+
+Include:
+
+Researcher profiles.
+Project membership.
+Shared research libraries.
+Comments.
+Research annotations.
+Hypothesis review.
+Document versioning.
+Research activity logs.
+Implement role-based access:
+
+Administrator.
+Principal investigator.
+Researcher.
+Reviewer.
+Read-only collaborator.
+Protect project information from unauthorised access.
+
+18. SYSTEM INTELLIGENCE
+Create a dedicated system monitoring and evaluation dashboard.
+
+Display:
+
+AI model information.
+API connectivity.
+Database health.
+Data processing status.
+Research task history.
+Failed operations.
+Processing latency.
+Token consumption where available.
+Storage usage.
+Integration health.
+Implement AI evaluation workflows:
+
+Citation verification.
+Scientific consistency checks.
+Contradictory evidence detection.
+Unsupported-claim detection.
+Hypothesis reproducibility assessment.
+Research output evaluation.
+CURE must improve through controlled software updates, better prompts, improved retrieval, evaluation datasets, and reviewed model integrations.
+
+Do not allow unrestricted autonomous modification of source code, scientific records, permissions, or production databases.
+
+All system updates must be version-controlled, auditable, reversible, and approved.
+
+19. TECHNICAL ARCHITECTURE
+Build the application using a modular architecture.
+
+Preferred stack:
+
+FRONTEND:
+
+React.
+TypeScript.
+Modern component architecture.
+Responsive CSS.
+Interactive charting.
+Scientific data visualisation.
+Accessible interface components.
+BACKEND:
+
+Secure server-side API.
+Modular service architecture.
+Input validation.
+Authentication.
+Role-based authorisation.
+Background processing for long-running tasks.
+AI:
+
+Google Gemini API.
+Configurable model selection.
+Structured JSON responses where appropriate.
+Server-side API calls.
+Tool-assisted retrieval and analysis.
+Context management.
+Research-specific prompt templates.
+DATABASE:
+
+PostgreSQL preferred.
+SQLite acceptable for a local development configuration.
+Persistent research records.
+User accounts.
+Project records.
+Literature metadata.
+Research datasets.
+Hypothesis records.
+Audit history.
+FILE STORAGE:
+
+Secure file upload.
+Metadata tracking.
+File access control.
+File validation.
+Research project association.
+INTEGRATIONS:
+
+PubMed API.
+Europe PMC API.
+Crossref API.
+ClinicalTrials.gov public API.
+Extensible scientific data connectors.
+Do not expose API keys in browser code.
+
+Use environment variables and server-side secrets.
+
+Provide an .env.example file documenting all required configuration variables.
+
+If an integration requires credentials, implement the connection workflow and explain what credentials are required.
+
+20. DATABASE DESIGN
+Create a properly structured database schema.
+
+Include entities for:
+
+Users.
+Organisations.
+ResearchProjects.
+ProjectMembers.
+ResearchConversations.
+ResearchMessages.
+LiteratureSources.
+ResearchDocuments.
+ResearchDatasets.
+DatasetSamples.
+DatasetVariables.
+PathologyImages.
+ImageAnnotations.
+BiologicalEntities.
+MolecularRelationships.
+ResearchHypotheses.
+HypothesisEvidence.
+ExperimentPlans.
+ResearchFindings.
+AnalysisJobs.
+AuditLogs.
+ModelEvaluations.
+Implement:
+
+Primary keys.
+Foreign keys.
+Referential integrity.
+Timestamps.
+Appropriate indexing.
+Data ownership.
+Access permissions.
+Preserve provenance and version history.
+
+21. SECURITY, PRIVACY AND RESEARCH ETHICS
+Treat all biomedical data as potentially sensitive.
+
+Implement:
+
+Authentication.
+Role-based authorisation.
+Secure API key management.
+HTTPS deployment requirements.
+Input validation.
+Upload restrictions.
+Access logging.
+Data deletion workflows.
+Data export.
+Secure session handling.
+Backup strategy.
+Explicit data retention configuration.
+Support de-identified research datasets.
+
+Do not assume that de-identification is perfect.
+
+Do not use patient information to train or improve AI models without explicit authorisation and appropriate consent.
+
+Do not transmit sensitive medical information to external services without an explicitly configured and approved data-sharing workflow.
+
+Do not claim HIPAA, GDPR, or other regulatory compliance merely because security features have been implemented.
+
+Provide clear privacy and data-processing documentation.
+
+22. SCIENTIFIC EVIDENCE AND CITATION POLICY
+This requirement is mandatory across the entire application.
+
+Every scientific statement derived from external research must have a traceable source.
+
+CURE must:
+
+Preserve publication identifiers.
+Provide source URLs.
+Distinguish primary research from reviews.
+Display publication dates.
+Identify preprints.
+Identify retracted or corrected publications where data are available.
+Distinguish evidence from interpretation.
+Identify contradictory studies.
+Clearly disclose unavailable evidence.
+Never fabricate citations.
+
+Never invent numerical results.
+
+Never claim an external API was queried if it was not.
+
+If evidence is insufficient, explicitly state:
+
+“INSUFFICIENT SCIENTIFIC EVIDENCE.”
+
+23. APPLICATION USER EXPERIENCE
+Implement a consistent interaction model.
+
+The user should be able to:
+
+Create a research project.
+Start an investigation.
+Search publications.
+Import datasets.
+Explore biological mechanisms.
+Upload pathology images.
+Generate hypotheses.
+Compare hypotheses.
+Design research studies.
+Save findings.
+Generate reports.
+Resume previous investigations.
+Provide contextual actions inside every module.
+
+For example, a literature finding should be directly savable to a research project or convertible into a hypothesis evidence record.
+
+A molecular finding should be linkable to a biological pathway and associated literature.
+
+A hypothesis should be linkable to its supporting datasets and proposed experiments.
+
+The modules must work together rather than behave like isolated screens.
+
+24. RESEARCH REPORT GENERATION
+Build a professional scientific report generator.
+
+Allow exporting reports in:
+
+PDF.
+DOCX.
+CSV for appropriate tabular research data.
+JSON for structured research records.
+Reports should contain:
+
+Research title.
+Research question.
+Objectives.
+Methodology.
+Data sources.
+Literature evidence.
+Analysis results.
+Statistical methods.
+Biological interpretation.
+Contradictory findings.
+Limitations.
+Hypotheses.
+Conclusions.
+References.
+Automatically distinguish computational results, literature-derived findings, manually entered observations, and AI-generated interpretations.
+
+25. DEVELOPMENT AND IMPLEMENTATION REQUIREMENTS
+Build the application in working stages, but implement as much of the complete architecture as possible in the initial build.
+
+STAGE 1:
+
+Application shell.
+Authentication foundation.
+Database.
+Command Centre.
+Research Engine.
+Persistent research projects.
+Research Library.
+STAGE 2:
+
+Literature Intelligence.
+Cancer Biology.
+Molecular Intelligence.
+Dataset imports.
+Analytics.
+STAGE 3:
+
+Pathology Intelligence.
+Tumour Microenvironment.
+Hypothesis Lab.
+Experiment Design.
+STAGE 4:
+
+Collaboration.
+System Intelligence.
+Scientific report generation.
+Evaluation and reproducibility.
+Do not sacrifice core functionality to create a visually impressive but non-functional interface.
+
+If implementation limits prevent completion, clearly identify unfinished modules and leave their architecture extensible.
+
+26. ACCEPTANCE TESTS
+Before declaring the application complete, test the following:
+
+TEST 1:
+Create a research project and confirm that it persists after refreshing the application.
+
+TEST 2:
+Submit a scientific research question and receive a structured AI response.
+
+TEST 3:
+Search PubMed or Europe PMC and display actual retrieved publications.
+
+TEST 4:
+Save a publication into the research library.
+
+TEST 5:
+Import a CSV dataset and validate its contents.
+
+TEST 6:
+Run a statistical analysis using the imported data.
+
+TEST 7:
+Generate a hypothesis linked to its actual supporting evidence.
+
+TEST 8:
+Create an experiment plan associated with that hypothesis.
+
+TEST 9:
+Upload a pathology image and display it in the pathology workspace.
+
+TEST 10:
+Generate a research report with traceable references.
+
+TEST 11:
+Verify that unauthorised users cannot access restricted project information.
+
+TEST 12:
+Verify that missing integrations and failed requests are clearly reported.
+
+27. FINAL DESIGN OBJECTIVE
+The finished application should feel like a serious scientific research instrument.
+
+It should not feel like a conventional healthcare application.
+
+It should not feel like a basic AI chat interface.
+
+It should feel like an integrated computational cancer research laboratory.
+
+CURE should bring scientific literature, molecular biology, pathology, data analytics, hypothesis generation, and research management into one coordinated environment.
+
+Its intelligence should be evidence-driven.
+
+Its research outputs should be reproducible.
+
+Its data should be traceable.
+
+Its limitations should be transparent.
+
+Its architecture should be modular and extensible.
+
+Its scientific conclusions must remain subject to independent verification.
+
+FINAL INSTRUCTION TO GOOGLE AI STUDIO
+Start building the actual application now.
+
+Do not respond with a development proposal or merely describe the architecture.
+
+Generate the working application, implement the functional interfaces, connect the available services, establish persistent storage, and create the necessary backend and frontend components.
+
+Prioritise a complete working Stage 1 while establishing the foundations for all subsequent stages.
+
+Use real data integrations wherever available.
+
+Do not substitute mock data for real functionality.
+
+Where a live service cannot be configured, provide a clearly labelled integration placeholder rather than a fabricated result.
+
+The deliverable must be a runnable application with a professional interface, functional navigation, persistent research workflows, secure API handling, and an extensible scientific research architecture.
+
+PROJECT CURE — Continuous Understanding and Research Engine.
+
+Research intelligently. Validate rigorously. Discover responsibly.
